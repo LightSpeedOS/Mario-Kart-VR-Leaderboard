@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Mario Kart VR Leaderboard/Mario Kart VR Leaderboard.vcxproj" />
+  <Project Path="Mario Kart VR Leaderboard/Mario Kart VR Leaderboard.vcxproj" Id="b428afec-f0fe-46b0-a1b1-1e6aecd884db" />
 </Solution>
