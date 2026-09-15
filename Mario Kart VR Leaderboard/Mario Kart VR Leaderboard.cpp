@@ -85,13 +85,13 @@ auto main() -> int
 
 		for (size_t i = 0; i < Entities.size(); i++)
 		{
-			if (Entities[i].position == 1) cout << gold << "#" << Entities[i].position << reset << " " << Entities[i].name << " " << Entities[i].VR << endl;
-			else if (Entities[i].position == 2) cout << silver << "#" << Entities[i].position << reset << " " << Entities[i].name << " " << Entities[i].VR << endl;
-			else if (Entities[i].position == 3) cout << bronze << "#" << Entities[i].position << reset << " " << Entities[i].name << " " << Entities[i].VR << endl;
+			if (Entities[i].position == 1) cout << gold << "#" << Entities[i].position << reset << setw(2) << " " << Entities[i].name << setw(1) << " " << Entities[i].VR << endl;
+			else if (Entities[i].position == 2) cout << silver << "#" << Entities[i].position << reset << setw(2) << " " << Entities[i].name << setw(1) << " " << Entities[i].VR << endl;
+			else if (Entities[i].position == 3) cout << bronze << "#" << Entities[i].position << reset << setw(2) << " " << Entities[i].name << setw(1) << " " << Entities[i].VR << endl;
 
 			if (Entities[i].position == 1 || Entities[i].position == 2 || Entities[i].position == 3) continue;
 
-			cout << "#" << Entities[i].position << " " << Entities[i].name << " " << Entities[i].VR << endl;
+			cout << "#" << Entities[i].position << setw(2) << " " << Entities[i].name << " " << Entities[i].VR << endl;
 		}
 		getKey();
 		return 0;
